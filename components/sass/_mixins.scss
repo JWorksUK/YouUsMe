@@ -1,0 +1,33 @@
+@mixin rounded-corners ($radius: 5px) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+         -o-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin transitions ($x) {
+    -webkit-transition: $x;
+       -moz-transition: $x;
+         -o-transition: $x;
+            transition: $x;
+}
+
+.text-offset {
+    text-indent: -999em;
+}
+
+/* Clearfix */
+/************************/
+
+.clearfix {
+    zoom: 1;
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+

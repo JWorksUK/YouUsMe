@@ -1,0 +1,12 @@
+# use glob syntax.
+syntax: glob
+
+.DS_Store
+node_modules
+.sass-cache
+
+bower_components
+
+npm-debug.log
+
+fabfile.pyc

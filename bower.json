@@ -1,0 +1,8 @@
+{
+    "name": "YouUsMe",
+    "version": "1.0.0",
+    "dependencies": {
+        "fontawesome":      "4.1",
+        "smooth-scroll.js": "#master"
+    }
+}
